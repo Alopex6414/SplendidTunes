@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{839FD6B7-A1E1-441C-A2F5-63DE3EBA295C}</ProjectGuid>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>SplendidTunes</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>C:\Windows\System32;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="AxInterop.WMPLib">
+      <HintPath>AxInterop.WMPLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.WMPLib">
+      <HintPath>Interop.WMPLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainForm.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MyType.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.h</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Ico\MusicTunes.ico" />
+    <Image Include="Resources\Ico\MusicTunesBig.ico" />
+    <Image Include="Resources\Image2.jpg" />
+    <Image Include="Resources\Png\Button_Add_Down.png" />
+    <Image Include="Resources\Png\Button_Add_Up.png" />
+    <Image Include="Resources\Png\Button_Bar_Down.png" />
+    <Image Include="Resources\Png\Button_Bar_Up.png" />
+    <Image Include="Resources\Png\Button_Close_Down.png" />
+    <Image Include="Resources\Png\Button_Close_Up.png" />
+    <Image Include="Resources\Png\Button_Go_Down.png" />
+    <Image Include="Resources\Png\Button_Go_Up.png" />
+    <Image Include="Resources\Png\Button_Home_Down.png" />
+    <Image Include="Resources\Png\Button_Home_Up.png" />
+    <Image Include="Resources\Png\Button_Last_Down.png" />
+    <Image Include="Resources\Png\Button_Last_Up.png" />
+    <Image Include="Resources\Png\Button_List_Down.png" />
+    <Image Include="Resources\Png\Button_List_Up.png" />
+    <Image Include="Resources\Png\Button_Love_Down.png" />
+    <Image Include="Resources\Png\Button_Love_Up.png" />
+    <Image Include="Resources\Png\Button_Max_Down.png" />
+    <Image Include="Resources\Png\Button_Max_Up.png" />
+    <Image Include="Resources\Png\Button_Men_Down.png" />
+    <Image Include="Resources\Png\Button_Men_Up.png" />
+    <Image Include="Resources\Png\Button_Min_Down.png" />
+    <Image Include="Resources\Png\Button_Min_Up.png" />
+    <Image Include="Resources\Png\Button_Next_Down.png" />
+    <Image Include="Resources\Png\Button_Next_Up.png" />
+    <Image Include="Resources\Png\Button_NoLove_Down.png" />
+    <Image Include="Resources\Png\Button_NoLove_Up.png" />
+    <Image Include="Resources\Png\Button_Pause_Down.png" />
+    <Image Include="Resources\Png\Button_Pause_Up.png" />
+    <Image Include="Resources\Png\Button_Play_Down.png" />
+    <Image Include="Resources\Png\Button_Play_Up.png" />
+    <Image Include="Resources\Png\Button_Rand_Down.png" />
+    <Image Include="Resources\Png\Button_Rand_Up.png" />
+    <Image Include="Resources\Png\Button_Rep_Down.png" />
+    <Image Include="Resources\Png\Button_Rep_Up.png" />
+    <Image Include="Resources\Png\Button_Run_Down.png" />
+    <Image Include="Resources\Png\Button_Run_Up.png" />
+    <Image Include="Resources\Png\Button_Setting_Down.png" />
+    <Image Include="Resources\Png\Button_Setting_Up.png" />
+    <Image Include="Resources\Png\Button_Set_Down.png" />
+    <Image Include="Resources\Png\Button_Set_Up.png" />
+    <Image Include="Resources\Png\Button_Volume_Max_Down.png" />
+    <Image Include="Resources\Png\Button_Volume_Max_Up.png" />
+    <Image Include="Resources\Png\Button_Volume_Min_Down.png" />
+    <Image Include="Resources\Png\Button_Volume_Min_Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SplendidTunes.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

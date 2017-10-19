@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="资源文件\Button">
+      <UniqueIdentifier>{330d7bcf-4756-464c-93ea-b5aaa025f725}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\Image">
+      <UniqueIdentifier>{b523afef-101c-4321-a5a9-4cd12ba95cee}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainForm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainForm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyType.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Png\Button_Go_Up.png">
+      <Filter>资源文件\Button</Filter>
+    </Image>
+    <Image Include="Resources\Png\Button_Last_Up.png">
+      <Filter>资源文件\Button</Filter>
+    </Image>
+    <Image Include="Resources\Png\Button_Love_Up.png">
+      <Filter>资源文件\Button</Filter>
+    </Image>
+    <Image Include="Resources\Png\Button_Men_Up.png">
+      <Filter>资源文件\Button</Filter>
+    </Image>
+    <Image Include="Resources\Png\Button_Next_Up.png">
+      <Filter>资源文件\Button</Filter>
+    </Image>
+    <Image Include="Resources\Png\Button_NoLove_Up.png">
+      <Filter>资源文件\Button</Filter>
+    </Image>
+    <Image Include="Resources\Png\Button_Pause_Up.png">
+      <Filter>资源文件\Button</Filter>
+    </Image>
+    <Image Include="Resources\Png\Button_Play_Up.png">
+      <Filter>资源文件\Button</Filter>
+    </Image>
+    <Image Include="Resources\Png\Button_Rand_Up.png">
+      <Filter>资源文件\Button</Filter>
+    </Image>
+    <Image Include="Resources\Png\Button_Rep_Up.png">
+      <Filter>资源文件\Button</Filter>
+    </Image>
+    <Image Include="Resources\Png\Button_Run_Up.png">
+      <Filter>资源文件\Button</Filter>
+    </Image>
+    <Image Include="Resources\Png\Button_Add_Down.png">
+      <Filter>资源文件\Button</Filter>
+    </Image>
+    <Image Include="Resources\Png\Button_Add_Up.png">
+      <Filter>资源文件\Button</Filter>
+    </Image>
+    <Image Include="Resources\Png\Button_Go_Down.png">
+      <Filter>资源文件\Button</Filter>
+    </Image>
+    <Image Include="Resources\Png\Button_Last_Down.png">
+      <Filter>资源文件\Button</Filter>
+    </Image>
+    <Image Include="Resources\Png\Button_Love_Down.png">
+      <Filter>资源文件\Button</Filter>
+    </Image>
+    <Image Include="Resources\Png\Button_Men_Down.png">
+      <Filter>资源文件\Button</Filter>
+    </Image>
+    <Image Include="Resources\Png\Button_Next_Down.png">
+      <Filter>资源文件\Button</Filter>
+    </Image>
+    <Image Include="Resources\Png\Button_NoLove_Down.png">
+      <Filter>资源文件\Button</Filter>
+    </Image>
+    <Image Include="Resources\Png\Button_Pause_Down.png">
+      <Filter>资源文件\Button</Filter>
+    </Image>
+    <Image Include="Resources\Png\Button_Play_Down.png">
+      <Filter>资源文件\Button</Filter>
+    </Image>
+    <Image Include="Resources\Png\Button_Rand_Down.png">
+      <Filter>资源文件\Button</Filter>
+    </Image>
+    <Image Include="Resources\Png\Button_Rep_Down.png">
+      <Filter>资源文件\Button</Filter>
+    </Image>
+    <Image Include="Resources\Png\Button_Run_Down.png">
+      <Filter>资源文件\Button</Filter>
+    </Image>
+    <Image Include="Resources\Image2.jpg">
+      <Filter>资源文件\Image</Filter>
+    </Image>
+    <Image Include="Resources\Png\Button_Bar_Down.png">
+      <Filter>资源文件\Button</Filter>
+    </Image>
+    <Image Include="Resources\Png\Button_Bar_Up.png">
+      <Filter>资源文件\Button</Filter>
+    </Image>
+    <Image Include="Resources\Png\Button_Volume_Max_Down.png">
+      <Filter>资源文件\Button</Filter>
+    </Image>
+    <Image Include="Resources\Png\Button_Volume_Max_Up.png">
+      <Filter>资源文件\Button</Filter>
+    </Image>
+    <Image Include="Resources\Png\Button_Volume_Min_Down.png">
+      <Filter>资源文件\Button</Filter>
+    </Image>
+    <Image Include="Resources\Png\Button_Volume_Min_Up.png">
+      <Filter>资源文件\Button</Filter>
+    </Image>
+    <Image Include="Resources\Png\Button_Close_Down.png">
+      <Filter>资源文件\Button</Filter>
+    </Image>
+    <Image Include="Resources\Png\Button_Close_Up.png">
+      <Filter>资源文件\Button</Filter>
+    </Image>
+    <Image Include="Resources\Png\Button_Max_Down.png">
+      <Filter>资源文件\Button</Filter>
+    </Image>
+    <Image Include="Resources\Png\Button_Max_Up.png">
+      <Filter>资源文件\Button</Filter>
+    </Image>
+    <Image Include="Resources\Png\Button_Min_Down.png">
+      <Filter>资源文件\Button</Filter>
+    </Image>
+    <Image Include="Resources\Png\Button_Min_Up.png">
+      <Filter>资源文件\Button</Filter>
+    </Image>
+    <Image Include="Resources\Ico\MusicTunes.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Resources\Ico\MusicTunesBig.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Resources\Png\Button_Home_Up.png">
+      <Filter>资源文件\Button</Filter>
+    </Image>
+    <Image Include="Resources\Png\Button_List_Up.png">
+      <Filter>资源文件\Button</Filter>
+    </Image>
+    <Image Include="Resources\Png\Button_Set_Up.png">
+      <Filter>资源文件\Button</Filter>
+    </Image>
+    <Image Include="Resources\Png\Button_Home_Down.png">
+      <Filter>资源文件\Button</Filter>
+    </Image>
+    <Image Include="Resources\Png\Button_List_Down.png">
+      <Filter>资源文件\Button</Filter>
+    </Image>
+    <Image Include="Resources\Png\Button_Set_Down.png">
+      <Filter>资源文件\Button</Filter>
+    </Image>
+    <Image Include="Resources\Png\Button_Setting_Down.png">
+      <Filter>资源文件\Button</Filter>
+    </Image>
+    <Image Include="Resources\Png\Button_Setting_Up.png">
+      <Filter>资源文件\Button</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SplendidTunes.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MainForm.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
